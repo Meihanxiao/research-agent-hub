@@ -12,11 +12,11 @@
   - [ ] 每个发现有文件位置、问题描述和具体建议；无问题也列出检查证据。
   - [ ] 检查无仓库权限、上下文不足、验收不通过三种情形的处理流程。
   - [ ] 报告区分文件审查和真实运行验证，不虚构 GitHub 操作。
-- Deliver To: https://github.com/Meihanxiao/research-agent-hub；基准分支待确认；Issue 待创建；outputs/TASK-001/
+- Deliver To: https://github.com/Meihanxiao/research-agent-hub；基准分支 main；Issue 待创建；outputs/TASK-001/
 
 ## 交接记录
 
 - 执行方：待用户指定
 - 任务分支：task/TASK-001-workflow-review
-- 基准提交：发布后填写；未填写前不分发
+- 基准提交：8a87c5287b0c959066db43c66e2434bae5bce192；Issue 链接回填前不分发
 - PR：待提交
