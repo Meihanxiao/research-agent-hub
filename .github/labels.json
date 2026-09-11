@@ -1,0 +1,27 @@
+[
+  {
+    "name": "literature",
+    "color": "0075ca",
+    "description": "文献任务"
+  },
+  {
+    "name": "coding",
+    "color": "0e8a16",
+    "description": "代码任务"
+  },
+  {
+    "name": "review",
+    "color": "d93f0b",
+    "description": "审查任务"
+  },
+  {
+    "name": "presentation",
+    "color": "a2eeef",
+    "description": "演示任务"
+  },
+  {
+    "name": "openfoam",
+    "color": "5319e7",
+    "description": "OpenFOAM 任务"
+  }
+]
