@@ -9,7 +9,7 @@
 - Required Output: 文件格式、命名、路径及执行报告
 - Acceptance Criteria:
   - [ ] 可逐项验证的标准
-- Deliver To: 仓库 URL、基准分支、Issue URL、产物路径
+- Deliver To: 仓库 URL、基准分支、任务文件路径、产物路径
 
 ## 交接记录
 

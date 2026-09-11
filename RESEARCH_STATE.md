@@ -1,16 +1,16 @@
 # 当前状态
 
-- 阶段：基础文件已上传 main；首个任务尚未分发。
+- 阶段：已按用户要求取消 Issue 环节；TASK-001 待手动分发。
 - 仓库：https://github.com/Meihanxiao/research-agent-hub
-- 已完成：本地 origin 关联、21 个基础文件提交、保留远端初始历史并合并上传、main 跟踪 origin/main。
-- 基础版本：https://github.com/Meihanxiao/research-agent-hub/commit/8a87c52
-- 阻塞：GitHub 插件创建 Issue 返回 403 Resource not accessible by integration；插件可读仓库，但实际 Issue 写入被拒绝。
-- 待完成：授权 Issue 写入、创建 TASK-001 Issue 和类型 labels、回填 Issue 链接后手动分发。
-- 尚未完成：外部 Agent 交付、PR、review、验收闭环及跨设备恢复验证。
-- 外部依赖：用户选择执行平台，并补齐 GitHub 集成的 Issue 写入权限。
+- 已完成：远端关联、基础文件上传、任务文件驱动的流程、PR 模板与验收清单。
+- 当前流程：任务文件 → 用户手动转发 → 子 Agent 交付 PR → Codex review → 合并 → 状态更新。
+- 下一步：将 tasks/TASK-001-HANDOFF.md 转发给其他平台 Agent；收到结果后返回本任务验收。
+- 尚未验证：子 Agent 实际交付、PR 写入权限、review、闭环与跨设备恢复。
+- 外部依赖：用户选择执行平台并转发任务；无 PR 写入能力时带回文件或补丁供代交。
+- Issue 权限不再是阻塞项；不创建 Issue 或类型 labels。
 
-| ID | 阶段 | Issue | PR | 产物 |
+| ID | 状态 | 任务文件 | PR | 产物 |
 | --- | --- | --- | --- | --- |
-| TASK-001 | 待创建 Issue，尚未分发 | 创建被 403 拒绝 | 待提交 | 待生成 |
+| TASK-001 | 待手动分发 | tasks/TASK-001.md | 待提交 | 待生成 |
 
-不得将计划或模拟结果写成已完成。
+状态采用：待分发、执行中、待验收、需修改、已完成、阻塞。由总 Agent 根据实际证据更新，不将计划记作完成。

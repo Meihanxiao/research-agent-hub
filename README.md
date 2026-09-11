@@ -6,7 +6,7 @@
 
 1. 在设备上克隆或同步本仓库；存在未提交改动时先处理，不覆盖本地工作。
 2. 让 Codex 读取 AGENTS.md、PROJECT_CONTEXT.md、RESEARCH_STATE.md 和 DECISIONS.md。
-3. 告诉 Codex 当前目标，由它按照 TASK_TEMPLATE.md 建立任务文件和 Issue。
+3. 告诉 Codex 当前目标，由它按照 TASK_TEMPLATE.md 建立任务文件。
 4. 将任务说明、指定上下文及基准提交转发给另一平台 Agent。
 5. 将 PR 链接带回 Codex，对照验收标准 review。
 6. 合并产物后更新 RESEARCH_STATE.md；全部记录完成才关闭任务。
@@ -22,6 +22,6 @@
 - agents/：五类平台无关角色。
 - skills/：手动引用的操作清单，不假定平台自动加载。
 - outputs/：按任务编号保存产物。
-- .github/：Issue、PR 模板和 labels 清单。
+- .github/：PR 模板（历史 Issue 模板及 labels 清单不再使用）。
 
 第一版不包含自动平台 API/MCP 调度或常驻服务。GitHub 登录通过设备自身完成，凭证不放入仓库。

@@ -1,3 +1,5 @@
+> 历史需求说明：用户已取消 Issue 环节。当前执行以 AGENTS.md、TASK_TEMPLATE.md 和 DECISIONS.md 为准；下方保留原始需求供追溯，不作为 Issue 强制要求。
+
 # Codex 总 Agent 实现说明
 
 请按以下需求实现可运行的最小版本，优先完成一次任务闭环。

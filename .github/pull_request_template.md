@@ -1,7 +1,7 @@
 ## 对应任务
 
 任务 ID：
-关联 Issue：
+任务文件链接：
 基准提交：
 
 ## 交付
@@ -18,4 +18,4 @@
 ## 总 Agent 验收
 
 review 结论：
-状态更新：合并产物后回写 RESEARCH_STATE.md，完成后再关闭 Issue。
+状态更新：合并产物后回写 RESEARCH_STATE.md，完成后将任务状态标为完成。
